@@ -3,11 +3,11 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 
 
-public class MainClassTest {
+class MainTest {
     @Disabled("Test is temporarily disabled")
     @Test
     @Timeout(value = 22)
-    public void mainClassTimeoutTest() {
+    void mainTimeoutTest() {
         String[] args = {};
         try {
             Main.main(args);
